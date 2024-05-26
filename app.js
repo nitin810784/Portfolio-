@@ -62,3 +62,15 @@ const typed = new Typed(".text", {
   backDelay: 1000,
   loop: true,
 });
+
+
+//================================= Resume =========================================//
+
+document.getElementById("downloadButton").addEventListener("click", function() {
+  let a = document.createElement("a");
+  a.href = "./img/Nitin Sharma (3).pdf";
+  a.download = "Nitin Sharma.pdf";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+});
