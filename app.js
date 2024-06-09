@@ -68,7 +68,7 @@ const typed = new Typed(".text", {
 
 document.getElementById("downloadButton").addEventListener("click", function() {
   let a = document.createElement("a");
-  a.href = "./img/Nitin Sharma (5).pdf";
+  a.href = ".img/Nitin Sharma (5).pdf";
   a.download = "Nitin Sharma.pdf";
   document.body.appendChild(a);
   a.click();
